@@ -66,7 +66,7 @@ function App() {
               <button onClick={(e) => handleUnitClick(e)}>&deg;F</button>
             </div>
             <div
-              style={{ margin: "10rem 1rem" }}
+              style={{ margin: "5rem 1rem" }}
               className="section section-temperature"
             >
               <div className="icon">
