@@ -33,3 +33,10 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .section-descriptions {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}

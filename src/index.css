@@ -36,7 +36,8 @@
 .section-temperature {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 20px 15px;
   background-color: var(--section-overlay);
 }
 

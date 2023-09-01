@@ -65,7 +65,10 @@ function App() {
               />
               <button onClick={(e) => handleUnitClick(e)}>&deg;F</button>
             </div>
-            <div className="section section-temperature">
+            <div
+              style={{ margin: "10rem 1rem" }}
+              className="section section-temperature"
+            >
               <div className="icon">
                 <h3>{`${weather.name}, ${weather.country}`}</h3>
                 <img src={weather.iconURL} alt="weather-icon" />
